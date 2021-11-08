@@ -1,0 +1,28 @@
+:root {
+  --bc-dark: #1f2937;
+
+  --fs-hero-heading: 3rem;
+  --fw-hero-heading: 800;
+  --fc-hero-heading: #f9faf8;
+
+  --fs-hero-text: 1.125rem;
+  --fc-hero-text: #e5e7eb;
+
+  --fs-logo: 1.5rem;
+
+  --fs-nav: 1.125rem;
+  --fc-nav: #e5e7eb;
+
+  --fc-cta: #f9faf8;
+  --bc-cta: #3882f6;
+
+  --fs-galery-heading: 2.25rem;
+  --fw-galery-heading: 800;
+  --fs-galery-heading: #1f2937;
+
+  --bc-quote: #e5e7eb;
+  --fs-quote: 2.25rem;
+  --fw-quote: 300;
+  --fc-quote: #1f2937;
+  --fst-quote: italic;
+}
