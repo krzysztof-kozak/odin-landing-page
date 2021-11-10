@@ -1,6 +1,12 @@
 :root {
   --bc-dark: #1f2937;
 
+  --fs-logo: 1.5rem;
+  --fc-logo: #f9faf8;
+
+  --fs-nav: 1.125rem;
+  --fc-nav: #e5e7eb;
+
   --fs-hero-heading: 3rem;
   --fw-hero-heading: 800;
   --fc-hero-heading: #f9faf8;
@@ -8,11 +14,10 @@
   --fs-hero-text: 1.125rem;
   --fc-hero-text: #e5e7eb;
 
-  --fs-logo: 1.5rem;
+  --fc-button: #f9faf8;
+  --bc-button: #3882f6;
 
-  --fs-nav: 1.125rem;
-  --fc-nav: #e5e7eb;
-
+  --fs-button: 1.125rem;
   --fc-cta: #f9faf8;
   --bc-cta: #3882f6;
 
@@ -25,4 +30,86 @@
   --fw-quote: 300;
   --fc-quote: #1f2937;
   --fst-quote: italic;
+}
+
+body {
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-grid {
+  display: grid;
+  gap: 50px 10px;
+
+  grid-template-rows: 100px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header {
+  background-color: var(--bc-dark);
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.header__logo {
+  font-size: var(--fs-logo);
+  color: var(--fc-logo);
+}
+
+.header__nav {
+  font-size: var(--fs-nav);
+  color: var(--fc-nav);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero {
+  grid-column: span 2;
+  gap: 0 5%;
+}
+
+.hero__image {
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 1px 1px #ffb74d;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  font-size: var(--fs-hero-heading);
+  font-weight: var(--fw-hero-heading);
+  color: var(--fc-hero-heading);
+
+  line-height: 1.25;
+}
+
+.card__text {
+  font-size: var(--fs-hero-text);
+  color: var(--fc-hero-text);
+  margin-top: 1em;
+}
+
+.button {
+  font-size: var(--fs-button);
+  color: var(--fc-button);
+  background-color: var(--bc-button);
+  padding: 0.1em 1.5em;
+  border-radius: 0.25em;
+}
+
+.button--hero {
+  margin-top: 0.5em;
 }
