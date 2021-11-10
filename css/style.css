@@ -95,6 +95,12 @@ a {
   grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 500px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .hero {
   grid-column: span 2;
   gap: 0 5%;
@@ -105,6 +111,12 @@ a {
   box-shadow: 2px 2px 1px 1px #ffb74d;
   height: 100%;
   object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .hero__image {
+    margin-top: 1em;
+  }
 }
 
 .card__title {
