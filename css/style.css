@@ -90,6 +90,13 @@ a {
   justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .nav-list {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
+
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
