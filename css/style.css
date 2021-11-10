@@ -18,8 +18,10 @@
   --bc-button: #3882f6;
 
   --fs-button: 1.125rem;
+
   --fc-cta: #f9faf8;
-  --bc-cta: #3882f6;
+  --bc-cta: #f9faf8;
+  --bc-cta-box: #3882f6;
 
   --bc-gallery: #f9faf8;
   --fs-gallery-heading: 2.25rem;
@@ -42,6 +44,11 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 1em;
+}
+
+button,
+a {
+  cursor: pointer;
 }
 
 .button {
@@ -175,4 +182,24 @@ body {
 
 .cta {
   background-color: var(--bc-cta);
+  color: var(--fc-logo);
+  padding: 5em 0;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--bc-cta-box);
+  padding: 3em 0;
+  border-radius: 0.5em;
+}
+
+.cta__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.button--cta {
+  border: 2px solid var(--fc-button);
 }
