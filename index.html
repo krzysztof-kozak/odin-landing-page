@@ -113,8 +113,16 @@
     </main>
     <footer class="footer">
       <p class="footer__text">
-        Copyright © The Odin Project 2021 change to current year in javascript
+        Copyright © The Odin Project <span class="year-js"></span>
       </p>
+      <script>
+        const yearSpan = document.querySelector(".year-js");
+
+        const date = new Date(Date.now());
+        const year = date.getFullYear();
+
+        yearSpan.textContent = year;
+      </script>
     </footer>
   </body>
 </html>

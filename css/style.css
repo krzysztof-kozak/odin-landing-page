@@ -33,6 +33,8 @@
   --fw-quote: 300;
   --fc-quote: #1f2937;
   --fst-quote: italic;
+
+  --fc-footer: #e5e7eb;
 }
 
 body {
@@ -188,10 +190,11 @@ a {
 
 .cta-box {
   display: flex;
+  gap: 5%;
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--bc-cta-box);
-  padding: 3em 0;
+  padding: 3em 1em;
   border-radius: 0.5em;
 }
 
@@ -202,4 +205,13 @@ a {
 
 .button--cta {
   border: 2px solid var(--fc-button);
+  flex: none;
+}
+
+.footer {
+  color: var(--fc-footer);
+  background-color: var(--bc-dark);
+  padding: 2em 1em;
+
+  text-align: center;
 }
