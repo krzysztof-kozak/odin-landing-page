@@ -2,9 +2,13 @@
 
 ## This is the second project in **[The Odin Project](https://www.theodinproject.com/)** [foundations](https://www.theodinproject.com/paths/foundations) path.
 
+---
 
+### View deployment on [krzysztof-kozak.github.io/odin-landing-page](https://krzysztof-kozak.github.io/odin-landing-page/)
 
-## Images attribution:
+---
+
+### Images attribution:
 
 1. Hero image by <a href="https://pixabay.com/users/jarmoluk-143740/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=604019">Michal Jarmoluk</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=604019">Pixabay</a>
 
