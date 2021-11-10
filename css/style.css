@@ -154,3 +154,20 @@ body {
   color: rgb(31 41 55 / 0.85);
   text-align: center;
 }
+
+.quote {
+  font-size: var(--fs-quote);
+
+  background-color: var(--bc-quote);
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.quote__text {
+  font-style: var(--fst-quote);
+  font-weight: var(--fw-quote);
+}
+
+.quote__author {
+  text-align: right;
+}
