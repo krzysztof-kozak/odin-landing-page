@@ -21,10 +21,10 @@
   --fc-cta: #f9faf8;
   --bc-cta: #3882f6;
 
-  --bc-galery: #f9faf8;
-  --fs-galery-heading: 2.25rem;
-  --fw-galery-heading: 800;
-  --fc-galery-heading: #1f2937;
+  --bc-gallery: #f9faf8;
+  --fs-gallery-heading: 2.25rem;
+  --fw-gallery-heading: 800;
+  --fc-gallery-heading: #1f2937;
 
   --bc-quote: #e5e7eb;
   --fs-quote: 2.25rem;
@@ -128,14 +128,14 @@ body {
 }
 
 .gallery {
-  background-color: var(--bc-galery);
+  background-color: var(--bc-gallery);
   padding-top: 2em;
   padding-bottom: 4em;
 }
 
 .gallery__title {
-  font-size: var(--fs-galery-heading);
-  color: var(--fc-galery-heading);
+  font-size: var(--fs-gallery-heading);
+  color: var(--fc-gallery-heading);
   font-weight: var(--fw-hero-heading);
   text-align: center;
 }
@@ -157,6 +157,7 @@ body {
 
 .quote {
   font-size: var(--fs-quote);
+  color: var(--fc-quote);
 
   background-color: var(--bc-quote);
   padding-top: 3em;
@@ -170,4 +171,8 @@ body {
 
 .quote__author {
   text-align: right;
+}
+
+.cta {
+  background-color: var(--bc-cta);
 }
