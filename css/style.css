@@ -21,9 +21,10 @@
   --fc-cta: #f9faf8;
   --bc-cta: #3882f6;
 
+  --bc-galery: #f9faf8;
   --fs-galery-heading: 2.25rem;
   --fw-galery-heading: 800;
-  --fs-galery-heading: #1f2937;
+  --fc-galery-heading: #1f2937;
 
   --bc-quote: #e5e7eb;
   --fs-quote: 2.25rem;
@@ -40,6 +41,15 @@ body {
 .content {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 1em;
+}
+
+.button {
+  font-size: var(--fs-button);
+  color: var(--fc-button);
+  background-color: var(--bc-button);
+  padding: 0.1em 1.5em;
+  border-radius: 0.25em;
 }
 
 .header-grid {
@@ -102,14 +112,45 @@ body {
   margin-top: 1em;
 }
 
-.button {
-  font-size: var(--fs-button);
-  color: var(--fc-button);
-  background-color: var(--bc-button);
-  padding: 0.1em 1.5em;
-  border-radius: 0.25em;
-}
-
 .button--hero {
   margin-top: 0.5em;
+}
+
+.gallery-grid {
+  margin-top: 2em;
+}
+
+.gallery-grid {
+  display: grid;
+  gap: 0 2em;
+
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.gallery {
+  background-color: var(--bc-galery);
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+.gallery__title {
+  font-size: var(--fs-galery-heading);
+  color: var(--fc-galery-heading);
+  font-weight: var(--fw-hero-heading);
+  text-align: center;
+}
+
+.gallery__img {
+  height: 150px;
+  width: 100%;
+  border: 3px solid #3882f6;
+  border-radius: 0.5em;
+  object-fit: cover;
+  object-position: 50% 80%;
+  box-shadow: 0 0 2px 0px black;
+}
+
+.gallery__text {
+  color: rgb(31 41 55 / 0.85);
+  text-align: center;
 }
